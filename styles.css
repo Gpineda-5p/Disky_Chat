@@ -93,23 +93,22 @@ body{
 }
 .chatlabel{font-family:var(--fontH); font-weight:800; letter-spacing:.2px}
 .open{
-   .chat-actions{
+.chathead{
+  flex-wrap:wrap;
+}
+
+.chatactions{
   display:flex;
   gap:10px;
   align-items:center;
+  justify-content:flex-end;
+  flex-wrap:wrap;
 }
 
 .back{
-  text-decoration:none;
-  color:var(--text);
   border:1px solid rgba(106,175,223,.45);
   background:rgba(106,175,223,.18);
-  padding:8px 12px;
-  border-radius:14px;
-  font-weight:800;
-  font-size:.9rem;
 }
-
 .back:hover{
   filter:brightness(1.05);
 }
